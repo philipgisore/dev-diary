@@ -1,0 +1,76 @@
+# ========================
+# 📁 General Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# 📦 Node Modules
+# ========================
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ========================
+# 🧱 Build Outputs
+# ========================
+dist/
+dist-ssr/
+build/
+src/output.css   # Tailwind CSS build file
+
+# ========================
+# ⚙️ Environment Files
+# ========================
+.env
+.env.*
+*.local
+
+# ========================
+# 🧠 Editor / IDE Settings
+# ========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ========================
+# 💾 OS System Files
+# ========================
+.DS_Store        # macOS
+.Trash-*         # Linux
+Thumbs.db        # Windows
+
+# ========================
+# 🧪 Testing / Coverage
+# ========================
+coverage/
+*.coverage
+*.lcov
+
+# ========================
+# 🧰 Temporary & Cache
+# ========================
+uploads/
+tmp/
+.cache/
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# ========================
+# 🧩 Misc
+# ========================
+yarn.lock
+pnpm-lock.yaml
